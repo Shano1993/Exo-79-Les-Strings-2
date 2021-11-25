@@ -44,10 +44,8 @@ idPomme.innerHTML = pomme.substring(18, 23);
  */
 
 let oneLine = document.getElementById('one-line');
-let tableau = pomme.split(" ");
-console.log(tableau);
 
 for (let i = 0; i < pomme.length; i++) {
     console.log(pomme[i])
-    oneLine.innerHTML = pomme[i];
+    oneLine.innerHTML += pomme[i] + "<br/>";
 }
